@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.input {
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #000088;
+  color: #ffffff;
+  width: 12rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+}
