@@ -35,7 +35,7 @@ function Login({history}) {
           inputClassName='input'
       />
       <button className="submit-btn" onClick = {e => onSubmit(e)}>SUBMIT</button>
-      {showError && ( <div style={{color: 'red', fontSize: '2rem'}}>Invalid code!</div> )}
+      {showError && ( <div style={{color: 'red', fontSize: '2rem'}}>Verification Error!</div> )}
       </div>
     );
     
