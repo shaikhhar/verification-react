@@ -4,7 +4,7 @@ import auth from './Auth';
 
 const GuardedRoute = ({ component: Component, ...rest }) => {
     return <Route {...rest} render={(props) => (
-        auth.isAuthenticated === true
+        auth.isAuthenticated
             ? <Component {...props} />
             : <Redirect to='/' />
     )} />   
